@@ -22,16 +22,16 @@ Create or import a wallet and back up your seed phrase.
 
 ## 2. Add Ethwei Testnet
 
-Click the button below to add the Ethwei Testnet network to Keplr in one step.
+Add the Ethwei Testnet network to Keplr in one step.
 
-{{< add-to-keplr network="testnet" >}}
-
-**On a computer** — click the button above. Keplr will ask you to approve the network. Accept,
+**On a computer** — click the button below. Keplr will ask you to approve the network. Accept,
 then switch to **Ethwei Testnet** inside Keplr.
 
 **On mobile** — open this page from inside the Keplr app's built-in browser (Keplr → Browser tab,
-then enter `docs.ethwei.com/docs/wallet`), then tap the button above. Mobile Safari and Chrome
+then enter `docs.ethwei.com/docs/wallet`), then tap the button below. Mobile Safari and Chrome
 can't talk to the Keplr app directly, so the button only works from Keplr's in-app browser.
+
+{{< add-to-keplr network="testnet" >}}
 
 ## 3. Get testnet tokens
 
