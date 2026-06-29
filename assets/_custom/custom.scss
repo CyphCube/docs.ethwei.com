@@ -9,6 +9,13 @@
   color: #4caf7d;
 }
 
+// Keep the logo at its natural aspect ratio (theme forces a 1.5em square box)
+.book-brand img {
+  height: 1.6rem;
+  width: auto;
+  margin-right: 0.5rem;
+}
+
 // Add-to-Keplr button
 .keplr-btn {
   display: inline-flex;
