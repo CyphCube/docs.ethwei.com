@@ -25,6 +25,11 @@ Click the button below to add the Ethwei Testnet network to Keplr in one step.
 After clicking, Keplr will ask you to approve the network. Accept, then switch to
 **Ethwei Testnet** inside Keplr.
 
+> [!NOTE]
+> **On mobile?** Open this page from inside the Keplr app's built-in browser, then tap the
+> button above. Mobile Safari and Chrome can't talk to the Keplr app directly, so the button
+> only works from Keplr's in-app browser.
+
 ## 3. Get testnet tokens
 
 Testnet faucet: coming soon. In the meantime, ask in the community for testnet ETE.
