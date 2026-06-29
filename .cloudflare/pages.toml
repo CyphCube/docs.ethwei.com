@@ -1,5 +1,12 @@
+# NOTE: Cloudflare Pages does NOT read this file. Build settings live in the
+# dashboard (Settings -> Builds & deployments). This is kept only as a record
+# of the values to enter there.
+
 [build]
-command = "hugo --minify"
+# git fetch --unshallow gives Hugo full history so enableGitInfo can resolve
+# each page's real "last updated" date. Cloudflare clones shallow (depth 1) by
+# default and the GIT_DEPTH env var did NOT override it; un-shallowing does.
+command = "git fetch --unshallow || true && hugo --minify"
 destination = "public"
 
 [build.environment]
