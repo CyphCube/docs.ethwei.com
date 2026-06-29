@@ -5,14 +5,18 @@ weight: 2
 
 # Wallet & Getting Started
 
-Ethwei uses standard Cosmos wallets. [Keplr](https://www.keplr.app/) is the recommended browser
-extension.
+Ethwei uses standard Cosmos wallets. [Keplr](https://www.keplr.app/) is the recommended wallet,
+available as both a desktop browser extension and a mobile app.
 
 ## 1. Install Keplr
 
-Download the Keplr extension for
+**On a computer** — install the Keplr extension for
 [Chrome / Brave](https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap)
 or [Firefox](https://addons.mozilla.org/firefox/addon/keplr/).
+
+**On mobile** — install the Keplr app from the
+[App Store](https://apps.apple.com/app/keplr/id1567851089) (iOS) or
+[Google Play](https://play.google.com/store/apps/details?id=com.chainapsis.keplr) (Android).
 
 Create or import a wallet and back up your seed phrase.
 
