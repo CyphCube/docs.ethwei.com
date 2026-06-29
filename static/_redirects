@@ -1,6 +1,0 @@
-# keplr.ethwei.com -> wallet page
-# Set this up in Cloudflare Pages: add keplr.ethwei.com as a custom domain
-# and Cloudflare will serve this _redirects file.
-# Alternatively, add a Cloudflare redirect rule for keplr.ethwei.com -> docs.ethwei.com/docs/wallet/
-
-/  https://docs.ethwei.com/docs/wallet/  301
