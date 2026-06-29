@@ -2,6 +2,7 @@ baseURL = "https://docs.ethwei.com/"
 locale = "en-us"
 title = "Ethwei Docs"
 theme = "book"
+enableGitInfo = true
 
 [params]
   BookTheme = "dark"
