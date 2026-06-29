@@ -1,0 +1,79 @@
+{{- $network := .Get "network" | default "testnet" -}}
+{{- $id := printf "keplr-%s-%d" $network (now.UnixNano) -}}
+
+{{ if eq $network "mainnet" }}
+<button class="keplr-btn coming-soon" disabled>
+  <img src="https://explorer.ethwei.com/ethwei-chain.png" alt="ETE" onerror="this.style.display='none'">
+  Add Ethwei Mainnet to Keplr
+</button>
+<span class="keplr-status">Mainnet coming soon.</span>
+{{ else }}
+<button class="keplr-btn" id="{{ $id }}" onclick="addEthweiTestnet('{{ $id }}')">
+  <img src="https://explorer.ethwei.com/ethwei-chain.png" alt="ETE" onerror="this.style.display='none'">
+  Add Ethwei Testnet to Keplr
+</button>
+<span class="keplr-status" id="{{ $id }}-status"></span>
+
+<script>
+async function addEthweiTestnet(btnId) {
+  const btn = document.getElementById(btnId);
+  const status = document.getElementById(btnId + '-status');
+
+  if (!window.keplr) {
+    status.textContent = 'Keplr wallet not found. Install the Keplr extension first.';
+    status.className = 'keplr-status error';
+    return;
+  }
+
+  btn.disabled = true;
+  status.textContent = 'Connecting…';
+  status.className = 'keplr-status';
+
+  try {
+    await window.keplr.experimentalSuggestChain({
+      chainId: "ethwei-testnet-1",
+      chainName: "Ethwei Testnet",
+      rpc: "https://rpc-testnet.ethwei.com",
+      rest: "https://api-testnet.ethwei.com",
+      bip44: { coinType: 118 },
+      bech32Config: {
+        bech32PrefixAccAddr: "ete",
+        bech32PrefixAccPub: "etepub",
+        bech32PrefixValAddr: "etevaloper",
+        bech32PrefixValPub: "etevaloperpub",
+        bech32PrefixConsAddr: "etevalcons",
+        bech32PrefixConsPub: "etevalconspub",
+      },
+      currencies: [{
+        coinDenom: "ETE",
+        coinMinimalDenom: "WEI",
+        coinDecimals: 6,
+        coinImageUrl: "https://explorer.ethwei.com/ethwei-chain.png",
+      }],
+      feeCurrencies: [{
+        coinDenom: "ETE",
+        coinMinimalDenom: "WEI",
+        coinDecimals: 6,
+        coinImageUrl: "https://explorer.ethwei.com/ethwei-chain.png",
+        gasPriceStep: { low: 0.01, average: 0.025, high: 0.04 },
+      }],
+      stakeCurrency: {
+        coinDenom: "ETE",
+        coinMinimalDenom: "WEI",
+        coinDecimals: 6,
+        coinImageUrl: "https://explorer.ethwei.com/ethwei-chain.png",
+      },
+      chainSymbolImageUrl: "https://explorer.ethwei.com/ethwei-chain.png",
+    });
+
+    status.textContent = 'Ethwei Testnet added to Keplr!';
+    status.className = 'keplr-status success';
+    btn.textContent = '✓ Added';
+  } catch (err) {
+    status.textContent = 'Error: ' + (err.message || err);
+    status.className = 'keplr-status error';
+    btn.disabled = false;
+  }
+}
+</script>
+{{ end }}

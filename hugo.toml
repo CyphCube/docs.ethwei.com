@@ -1,0 +1,19 @@
+baseURL = "https://docs.ethwei.com/"
+locale = "en-us"
+title = "Ethwei Docs"
+theme = "book"
+
+[params]
+  BookTheme = "dark"
+  BookToC = true
+  BookFlatSection = false
+  BookSearch = true
+  BookLogo = "/logo.png"
+  BookSection = "docs"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false

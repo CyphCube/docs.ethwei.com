@@ -1,0 +1,60 @@
+// Ethwei brand: accent green replacing the book theme's default purple/blue
+:root {
+  --color-link: #4caf7d;
+}
+
+// Override book theme accent color variables
+.book-menu nav a:hover,
+.book-menu nav a.active {
+  color: #4caf7d;
+}
+
+// Add-to-Keplr button
+.keplr-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  background: #4caf7d;
+  color: #000;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background 0.15s;
+  text-decoration: none;
+}
+
+.keplr-btn:hover {
+  background: #3d9e6e;
+  color: #000;
+}
+
+.keplr-btn:disabled,
+.keplr-btn.coming-soon {
+  background: #333;
+  color: #888;
+  cursor: not-allowed;
+}
+
+.keplr-btn img {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+}
+
+.keplr-status {
+  display: block;
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.keplr-status.success {
+  color: #4caf7d;
+}
+
+.keplr-status.error {
+  color: #e05252;
+}
