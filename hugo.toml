@@ -1,8 +1,9 @@
 baseURL = "https://docs.ethwei.com/"
-locale = "en-us"
 title = "Ethwei Docs"
 theme = "book"
 enableGitInfo = true
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
 
 [params]
   BookTheme = "dark"
@@ -11,6 +12,20 @@ enableGitInfo = true
   BookSearch = true
   BookLogo = "/logo.png"
   BookSection = "docs"
+
+[languages]
+  [languages.en]
+    contentDir = "content"
+    languageName = "English"
+    locale = "en-us"
+    title = "Ethwei Docs"
+    weight = 1
+  [languages.zh]
+    contentDir = "content.zh"
+    languageName = "中文"
+    locale = "zh-cn"
+    title = "Ethwei 文档"
+    weight = 2
 
 [markup]
   [markup.goldmark]

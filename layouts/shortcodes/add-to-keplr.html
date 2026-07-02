@@ -4,18 +4,18 @@
 {{ if eq $network "mainnet" }}
 <button class="keplr-btn coming-soon" disabled>
   <img src="https://explorer.ethwei.com/ethwei-chain.png" alt="ETE" onerror="this.style.display='none'">
-  Add Ethwei Mainnet to Keplr
+  {{ i18n "keplrAddMainnet" }}
 </button>
-<span class="keplr-status">Mainnet coming soon.</span>
+<span class="keplr-status">{{ i18n "keplrMainnetSoon" }}</span>
 {{ else }}
 <button class="keplr-btn" id="{{ $id }}" onclick="addEthweiTestnet('{{ $id }}')">
   <img src="https://explorer.ethwei.com/ethwei-chain.png" alt="ETE" onerror="this.style.display='none'">
-  Add Ethwei Testnet to Keplr
+  {{ i18n "keplrAddTestnet" }}
 </button>
 <span class="keplr-status" id="{{ $id }}-status"></span>
 <p class="keplr-explorer">
-  Track your transactions and staking history on the
-  <a href="https://explorer.ethwei.com/testnet" target="_blank" rel="noopener noreferrer">Ethwei Testnet explorer</a>.
+  {{ i18n "keplrExplorerPre" }}
+  <a href="https://explorer.ethwei.com/testnet" target="_blank" rel="noopener noreferrer">{{ i18n "keplrExplorerLink" }}</a>.
 </p>
 
 <script>
@@ -24,13 +24,13 @@ async function addEthweiTestnet(btnId) {
   const status = document.getElementById(btnId + '-status');
 
   if (!window.keplr) {
-    status.textContent = 'Keplr wallet not found. Install the Keplr extension first.';
+    status.textContent = {{ i18n "keplrNotFound" | jsonify }};
     status.className = 'keplr-status error';
     return;
   }
 
   btn.disabled = true;
-  status.textContent = 'Connecting…';
+  status.textContent = {{ i18n "keplrConnecting" | jsonify }};
   status.className = 'keplr-status';
 
   try {
@@ -70,11 +70,11 @@ async function addEthweiTestnet(btnId) {
       chainSymbolImageUrl: "https://explorer.ethwei.com/ethwei-chain.png",
     });
 
-    status.textContent = 'Ethwei Testnet added to Keplr!';
+    status.textContent = {{ i18n "keplrSuccess" | jsonify }};
     status.className = 'keplr-status success';
-    btn.textContent = '✓ Added';
+    btn.textContent = {{ i18n "keplrAdded" | jsonify }};
   } catch (err) {
-    status.textContent = 'Error: ' + (err.message || err);
+    status.textContent = {{ i18n "keplrErrorPrefix" | jsonify }} + (err.message || err);
     status.className = 'keplr-status error';
     btn.disabled = false;
   }

@@ -1,0 +1,35 @@
+[brandDocs]
+other = "Docs"
+
+[lastUpdated]
+other = "Last updated"
+
+[keplrAddTestnet]
+other = "Add Ethwei Testnet to Keplr"
+
+[keplrAddMainnet]
+other = "Add Ethwei Mainnet to Keplr"
+
+[keplrAdded]
+other = "✓ Added"
+
+[keplrMainnetSoon]
+other = "Mainnet coming soon."
+
+[keplrNotFound]
+other = "Keplr wallet not found. Install the Keplr extension first."
+
+[keplrConnecting]
+other = "Connecting…"
+
+[keplrSuccess]
+other = "Ethwei Testnet added to Keplr!"
+
+[keplrErrorPrefix]
+other = "Error: "
+
+[keplrExplorerPre]
+other = "Track your transactions and staking history on the"
+
+[keplrExplorerLink]
+other = "Ethwei Testnet explorer"
