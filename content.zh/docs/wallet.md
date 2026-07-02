@@ -5,7 +5,7 @@ weight: 2
 
 # 钱包与快速上手
 
-Ethwei 使用标准的 Cosmos 钱包。[Keplr](https://www.keplr.app/) 是推荐的钱包，既有桌面浏览器扩展，也有
+以太维使用标准的 Cosmos 钱包。[Keplr](https://www.keplr.app/) 是推荐的钱包，既有桌面浏览器扩展，也有
 手机应用。
 
 ## 1. 安装 Keplr
@@ -20,9 +20,9 @@ Ethwei 使用标准的 Cosmos 钱包。[Keplr](https://www.keplr.app/) 是推荐
 
 创建或导入钱包，并备份好你的助记词。
 
-## 2. 添加 Ethwei 测试网
+## 2. 添加以太维测试网
 
-一键将 Ethwei 测试网添加到 Keplr。
+一键将以太维测试网添加到 Keplr。
 
 **在电脑上**——点击下方按钮。Keplr 会请求你批准该网络。接受后，在 Keplr 内切换到 **Ethwei Testnet**。
 
@@ -46,10 +46,10 @@ Ethwei 使用标准的 Cosmos 钱包。[Keplr](https://www.keplr.app/) 是推荐
 
 ## 地址格式
 
-所有 Ethwei 地址都以 `ete` 开头。例如：
+所有以太维地址都以 `ete` 开头。例如：
 
 ```
 ete1qv2scq5r3qws0gu3h0e7h9c7m2t7h5m0zgm5xq
 ```
 
-添加网络后，你在 Ethwei 测试网上的 Keplr 地址会显示在 Keplr 图标下方。
+添加网络后，你在以太维测试网上的 Keplr 地址会显示在 Keplr 图标下方。

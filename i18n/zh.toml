@@ -5,10 +5,10 @@ other = "文档"
 other = "最后更新"
 
 [keplrAddTestnet]
-other = "将 Ethwei 测试网添加到 Keplr"
+other = "将以太维测试网添加到 Keplr"
 
 [keplrAddMainnet]
-other = "将 Ethwei 主网添加到 Keplr"
+other = "将以太维主网添加到 Keplr"
 
 [keplrAdded]
 other = "✓ 已添加"
@@ -23,7 +23,7 @@ other = "未检测到 Keplr 钱包，请先安装 Keplr 扩展。"
 other = "连接中…"
 
 [keplrSuccess]
-other = "Ethwei 测试网已添加到 Keplr！"
+other = "以太维测试网已添加到 Keplr！"
 
 [keplrErrorPrefix]
 other = "错误："
@@ -32,4 +32,4 @@ other = "错误："
 other = "在以下浏览器中查看您的交易和质押记录："
 
 [keplrExplorerLink]
-other = "Ethwei 测试网浏览器"
+other = "以太维测试网浏览器"

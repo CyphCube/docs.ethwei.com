@@ -5,7 +5,7 @@ weight: 5
 
 # 运行验证人节点
 
-本指南介绍如何在 Hetzner VPS 上搭建 Ethwei 测试网验证人。同样的步骤适用于任何 Linux VPS。
+本指南介绍如何在 Hetzner VPS 上搭建以太维测试网验证人。同样的步骤适用于任何 Linux VPS。
 
 ## 推荐硬件（测试网）
 

@@ -24,7 +24,7 @@ defaultContentLanguageInSubdir = false
     contentDir = "content.zh"
     languageName = "中文"
     locale = "zh-cn"
-    title = "Ethwei 文档"
+    title = "以太维文档"
     weight = 2
 
 [markup]

@@ -47,4 +47,4 @@ RPC   https://rpc-testnet.ethwei.com
 API   https://api-testnet.ethwei.com
 ```
 
-这些端点由 Ethwei 团队运营，供测试网使用，方便快捷。我们鼓励验证人公开自己的端点。
+这些端点由以太维团队运营，供测试网使用，方便快捷。我们鼓励验证人公开自己的端点。

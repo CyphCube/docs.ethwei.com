@@ -25,6 +25,48 @@
   color: #888;
 }
 
+// Make the language switcher stand out (default theme styling is very subtle)
+.book-languages {
+  margin: 0 0 1rem 0;
+
+  > li {
+    border: 1px solid rgba(76, 175, 125, 0.5);
+    border-radius: 6px;
+    background: rgba(76, 175, 125, 0.08);
+    overflow: hidden;
+  }
+
+  label {
+    padding: 0.45rem 0.7rem;
+    cursor: pointer;
+    font-weight: 600;
+
+    &:hover {
+      background: rgba(76, 175, 125, 0.15);
+    }
+
+    a {
+      color: #4caf7d;
+    }
+  }
+
+  // The chevron rotates when expanded (theme behavior); tint it green
+  .book-icon {
+    filter: invert(56%) sepia(38%) saturate(560%) hue-rotate(96deg) brightness(92%);
+    opacity: 1;
+  }
+
+  // Expanded list of other languages
+  > li > ul a {
+    padding: 0.4rem 0.7rem 0.4rem 2.1rem;
+
+    &:hover {
+      background: rgba(76, 175, 125, 0.15);
+      color: #4caf7d;
+    }
+  }
+}
+
 // Sidebar footer copyright
 .book-menu-footer {
   margin-top: 2rem;

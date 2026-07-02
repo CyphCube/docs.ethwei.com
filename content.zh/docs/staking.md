@@ -9,7 +9,7 @@ weight: 3
 
 ## 前置条件
 
-- 已安装 Keplr 并添加了 Ethwei 测试网（[钱包指南]({{< relref "wallet.md" >}})）
+- 已安装 Keplr 并添加了以太维测试网（[钱包指南]({{< relref "wallet.md" >}})）
 - 钱包中有一些测试网 ETE
 
 ---
