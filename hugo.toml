@@ -26,6 +26,18 @@ defaultContentLanguageInSubdir = false
     locale = "zh-cn"
     title = "以太维文档"
     weight = 2
+  [languages.ko]
+    contentDir = "content.ko"
+    languageName = "한국어"
+    locale = "ko-kr"
+    title = "Ethwei 문서"
+    weight = 3
+  [languages.ja]
+    contentDir = "content.ja"
+    languageName = "日本語"
+    locale = "ja-jp"
+    title = "Ethwei ドキュメント"
+    weight = 4
 
 [markup]
   [markup.goldmark]

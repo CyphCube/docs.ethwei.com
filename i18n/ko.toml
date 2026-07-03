@@ -1,0 +1,35 @@
+[brandDocs]
+other = "문서"
+
+[lastUpdated]
+other = "마지막 업데이트"
+
+[keplrAddTestnet]
+other = "Ethwei 테스트넷을 Keplr에 추가"
+
+[keplrAddMainnet]
+other = "Ethwei 메인넷을 Keplr에 추가"
+
+[keplrAdded]
+other = "✓ 추가됨"
+
+[keplrMainnetSoon]
+other = "메인넷 출시 예정."
+
+[keplrNotFound]
+other = "Keplr 지갑을 찾을 수 없습니다. 먼저 Keplr 확장 프로그램을 설치하세요."
+
+[keplrConnecting]
+other = "연결 중…"
+
+[keplrSuccess]
+other = "Ethwei 테스트넷이 Keplr에 추가되었습니다!"
+
+[keplrErrorPrefix]
+other = "오류: "
+
+[keplrExplorerPre]
+other = "거래 및 스테이킹 내역을 다음에서 확인하세요:"
+
+[keplrExplorerLink]
+other = "Ethwei 테스트넷 익스플로러"

@@ -1,0 +1,35 @@
+[brandDocs]
+other = "ドキュメント"
+
+[lastUpdated]
+other = "最終更新"
+
+[keplrAddTestnet]
+other = "Ethwei テストネットを Keplr に追加"
+
+[keplrAddMainnet]
+other = "Ethwei メインネットを Keplr に追加"
+
+[keplrAdded]
+other = "✓ 追加済み"
+
+[keplrMainnetSoon]
+other = "メインネットは近日公開予定。"
+
+[keplrNotFound]
+other = "Keplr ウォレットが見つかりません。まず Keplr 拡張機能をインストールしてください。"
+
+[keplrConnecting]
+other = "接続中…"
+
+[keplrSuccess]
+other = "Ethwei テストネットが Keplr に追加されました！"
+
+[keplrErrorPrefix]
+other = "エラー: "
+
+[keplrExplorerPre]
+other = "取引およびステーキング履歴は次で確認できます:"
+
+[keplrExplorerLink]
+other = "Ethwei テストネットエクスプローラー"
