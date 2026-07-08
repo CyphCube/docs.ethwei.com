@@ -5,7 +5,7 @@ weight: 2
 
 # 지갑 및 시작하기
 
-Ethwei는 표준 Cosmos 지갑을 사용합니다. [Keplr](https://www.keplr.app/)를 권장하며, 데스크톱 브라우저
+이더웨이는 표준 Cosmos 지갑을 사용합니다. [Keplr](https://www.keplr.app/)를 권장하며, 데스크톱 브라우저
 확장 프로그램과 모바일 앱 모두 제공됩니다.
 
 ## 1. Keplr 설치
@@ -20,9 +20,9 @@ Ethwei는 표준 Cosmos 지갑을 사용합니다. [Keplr](https://www.keplr.app
 
 지갑을 생성하거나 가져온 후 시드 문구를 백업하세요.
 
-## 2. Ethwei 테스트넷 추가
+## 2. 이더웨이 테스트넷 추가
 
-한 번의 클릭으로 Ethwei 테스트넷을 Keplr에 추가하세요.
+한 번의 클릭으로 이더웨이 테스트넷을 Keplr에 추가하세요.
 
 **컴퓨터에서** — 아래 버튼을 클릭하세요. Keplr가 네트워크 승인을 요청합니다. 승인한 후 Keplr에서
 **Ethwei Testnet**으로 전환하세요.
@@ -47,10 +47,10 @@ Ethwei는 표준 Cosmos 지갑을 사용합니다. [Keplr](https://www.keplr.app
 
 ## 주소 형식
 
-모든 Ethwei 주소는 `ete`로 시작합니다. 예시:
+모든 이더웨이 주소는 `ete`로 시작합니다. 예시:
 
 ```
 ete1qv2scq5r3qws0gu3h0e7h9c7m2t7h5m0zgm5xq
 ```
 
-네트워크를 추가하면 Ethwei 테스트넷의 Keplr 주소가 Keplr 아이콘 아래에 표시됩니다.
+네트워크를 추가하면 이더웨이 테스트넷의 Keplr 주소가 Keplr 아이콘 아래에 표시됩니다.

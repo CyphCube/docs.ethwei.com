@@ -47,5 +47,5 @@ RPC   https://rpc-testnet.ethwei.com
 API   https://api-testnet.ethwei.com
 ```
 
-이 엔드포인트는 테스트넷 편의를 위해 Ethwei 팀이 운영합니다. 검증인은 자체 공개 엔드포인트를 제공하는
+이 엔드포인트는 테스트넷 편의를 위해 이더웨이 팀이 운영합니다. 검증인은 자체 공개 엔드포인트를 제공하는
 것을 권장합니다.

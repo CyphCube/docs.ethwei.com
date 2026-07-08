@@ -30,13 +30,13 @@ defaultContentLanguageInSubdir = false
     contentDir = "content.ko"
     languageName = "한국어"
     locale = "ko-kr"
-    title = "Ethwei 문서"
+    title = "이더웨이 문서"
     weight = 3
   [languages.ja]
     contentDir = "content.ja"
     languageName = "日本語"
     locale = "ja-jp"
-    title = "Ethwei ドキュメント"
+    title = "イーサウェイ ドキュメント"
     weight = 4
 
 [markup]
