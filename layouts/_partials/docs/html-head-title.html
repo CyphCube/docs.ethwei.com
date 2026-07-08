@@ -1,0 +1,6 @@
+{{- $pageTitle := partial "docs/title" . -}}
+{{- if and $pageTitle (ne ($pageTitle | plainify) .Site.Title) -}}
+{{ $pageTitle }} • {{ .Site.Title }}
+{{- else -}}
+{{ .Site.Title }}
+{{- end -}}
