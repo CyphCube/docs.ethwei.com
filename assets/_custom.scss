@@ -131,3 +131,11 @@
   font-size: 0.85rem;
   color: #888;
 }
+
+// Keplr Add/Remove Chains screenshot (phone capture — keep it modestly sized)
+.markdown img[src*="keplr-add-chain"] {
+  max-width: 360px;
+  display: block;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}

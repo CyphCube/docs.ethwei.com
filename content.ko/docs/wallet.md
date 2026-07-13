@@ -22,7 +22,9 @@ weight: 2
 
 ## 2. 이더웨이 테스트넷 추가
 
-한 번의 클릭으로 이더웨이 테스트넷을 Keplr에 추가하세요.
+이더웨이 테스트넷을 추가하는 방법은 두 가지입니다 — 더 편한 방법을 선택하세요.
+
+### 방법 A — 원클릭 버튼
 
 **컴퓨터에서** — 아래 버튼을 클릭하세요. Keplr가 네트워크 승인을 요청합니다. 승인한 후 Keplr에서
 **Ethwei Testnet**으로 전환하세요.
@@ -32,6 +34,19 @@ weight: 2
 앱과 직접 통신할 수 없으므로, 이 버튼은 Keplr 내장 브라우저에서만 작동합니다.
 
 {{< add-to-keplr network="testnet" >}}
+
+### 방법 B — Keplr에서 검색
+
+이더웨이 테스트넷은 이제 공식 Keplr 체인 레지스트리(Keplr Chain Registry)에 등록되어 있으므로, 버튼이나
+브라우저 없이 Keplr에서 직접 추가할 수 있습니다.
+
+**컴퓨터에서** — Keplr 확장 프로그램을 열고 상단의 메뉴(☰)를 클릭한 후 **Add/Remove Chains**를 선택하고,
+**"Ethwei Testnet"**을 검색한 다음 토글을 켜세요.
+
+**모바일에서** — Keplr 앱을 열고 메뉴(☰)를 탭한 후 **Add/Remove Chains**(체인 표시 관리)를 선택하고,
+**"Ethwei Testnet"**을 검색한 다음 토글을 켜세요.
+
+![Keplr의 Add/Remove Chains 화면에서 "Ethwei Testnet" 검색](/keplr-add-chain.png)
 
 ## 3. 테스트넷 토큰 받기
 
