@@ -24,20 +24,7 @@ weight: 2
 
 有两种方式添加以太维测试网——选择更方便的一种即可。
 
-### 方式 A——一键按钮
-
-**在电脑上**——点击下方按钮。Keplr 会请求你批准该网络。接受后，在 Keplr 内切换到 **Ethwei Testnet**。
-
-**在手机上**——在 Keplr 应用内置的浏览器中打开本页面（Keplr → 浏览器标签页，然后输入
-`docs.ethwei.com/zh/docs/wallet`），再点击下方按钮。手机版 Safari 和 Chrome 无法直接与 Keplr 应用通信，
-因此该按钮只能在 Keplr 内置浏览器中生效。
-
-{{< add-to-keplr network="testnet" >}}
-
-### 方式 B——在 Keplr 中搜索
-
-以太维测试网现已收录于官方 Keplr 链注册表（Keplr Chain Registry），因此你可以直接在 Keplr 中添加——
-无需按钮，也无需浏览器。
+### 方式 A——在 Keplr 中搜索
 
 **在电脑上**——打开 Keplr 扩展，点击顶部的菜单（☰），选择 **Add/Remove Chains**，搜索
 **“Ethwei Testnet”**，然后打开开关。
@@ -46,6 +33,16 @@ weight: 2
 **“Ethwei Testnet”**，然后打开开关。
 
 ![在 Keplr 的 Add/Remove Chains 界面搜索 “Ethwei Testnet”](/keplr-add-chain.png)
+
+### 方式 B——一键按钮
+
+**在电脑上**——点击下方按钮。Keplr 会请求你批准该网络。接受后，在 Keplr 内切换到 **Ethwei Testnet**。
+
+**在手机上**——在 Keplr 应用内置的浏览器中打开本页面（Keplr → 浏览器标签页，然后输入
+`docs.ethwei.com/zh/docs/wallet`），再点击下方按钮。手机版 Safari 和 Chrome 无法直接与 Keplr 应用通信，
+因此该按钮只能在 Keplr 内置浏览器中生效。
+
+{{< add-to-keplr network="testnet" >}}
 
 ## 3. 获取测试网代币
 

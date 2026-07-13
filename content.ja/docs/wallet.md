@@ -24,7 +24,17 @@ weight: 2
 
 イーサウェイ テストネットを追加する方法は 2 つあります — やりやすい方を選んでください。
 
-### 方法 A — ワンクリックボタン
+### 方法 A — Keplr 内で検索
+
+**パソコンで** — Keplr 拡張機能を開き、上部のメニュー（☰）をクリックして **Add/Remove Chains** を選び、
+**「Ethwei Testnet」** を検索してトグルをオンにします。
+
+**モバイルで** — Keplr アプリを開き、メニュー（☰）をタップして **Add/Remove Chains**（チェーン表示の管理）
+を選び、**「Ethwei Testnet」** を検索してトグルをオンにします。
+
+![Keplr の Add/Remove Chains 画面で「Ethwei Testnet」を検索](/keplr-add-chain.png)
+
+### 方法 B — ワンクリックボタン
 
 **パソコンで** — 下のボタンをクリックしてください。Keplr がネットワークの承認を求めます。承認したら、
 Keplr 内で **Ethwei Testnet** に切り替えてください。
@@ -34,19 +44,6 @@ Keplr 内で **Ethwei Testnet** に切り替えてください。
 は Keplr アプリと直接通信できないため、このボタンは Keplr 内蔵ブラウザでのみ動作します。
 
 {{< add-to-keplr network="testnet" >}}
-
-### 方法 B — Keplr 内で検索
-
-イーサウェイ テストネットは公式の Keplr チェーンレジストリ（Keplr Chain Registry）に登録されたため、
-ボタンもブラウザも使わずに Keplr 内で直接追加できます。
-
-**パソコンで** — Keplr 拡張機能を開き、上部のメニュー（☰）をクリックして **Add/Remove Chains** を選び、
-**「Ethwei Testnet」** を検索してトグルをオンにします。
-
-**モバイルで** — Keplr アプリを開き、メニュー（☰）をタップして **Add/Remove Chains**（チェーン表示の管理）
-を選び、**「Ethwei Testnet」** を検索してトグルをオンにします。
-
-![Keplr の Add/Remove Chains 画面で「Ethwei Testnet」を検索](/keplr-add-chain.png)
 
 ## 3. テストネットトークンを入手
 
